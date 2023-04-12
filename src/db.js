@@ -14,3 +14,7 @@ export const pool = createPool({
   port: DB_PORT,
   database: DB_DATABASE,
 });
+
+// 🌱 Importa config.js - Donde Esta las Variables, Mejor Organizado 
+
+// Este archivo solo es la conexion a DB

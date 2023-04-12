@@ -50,7 +50,7 @@ export const createEmployee = async (req, res) => {
     );
     res.status(201).json({ id: rows.insertId, name, salary });
   } catch (error) {
-    return res.status(500).json({ message: "Something goes wrong" });
+    return res.status(500).json({ message: "Something goes wrong" }); //Mensaje de Error
   }
 };
 
@@ -60,6 +60,7 @@ export const updateEmployee = async (req, res) => {
     const { name, salary } = req.body;
 
     const [result] = await pool.query(
+      //Con este codigo ya no es necesario el path y facilmente usamos put
       "UPDATE employee SET name = IFNULL(?, name), salary = IFNULL(?, salary) WHERE id = ?",
       [name, salary, id]
     );

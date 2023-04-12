@@ -21,6 +21,6 @@ router.delete("/employees/:id", deleteEmployee);
 // INSERT An Employee
 router.post("/employees", createEmployee);
 
-router.patch("/employees/:id", updateEmployee);
+router.patch("/employees/:id", updateEmployee); //similar a put - pero evita un error de undefined
 
 export default router;

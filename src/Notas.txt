@@ -1,0 +1,22 @@
+🌿🌱🌲■
+
+🌲 Los archivos principales Index.js
+
+
+[Importanciones]
+La app esta separada en varios archivos para una mejor Organizacion
+
+🌱 index.js    ->  Crea el puerto del backend , que usara [🌲 app.js]
+🌲 app.js      ->  Contiene la configuracion de las rutas
+🌱 db.js       ->  Conexion a la Database 
+🌱 config.js   ->  Variables Importantes  , Usado por [🌱 db.js , 🌱 index.js] 
+
+
+    📁 controllers  - Funciones Importantes
+    📁 routes       - Configuracion de rutas - Separadas para una mayor orden en App.js
+
+    ■ Las funciones en [📂controllers] son importadas en [📂routes] 
+    ■ Las [📂routes] son importadas en 🌱app.js
+
+
+📁 📂 📑 📊 📈 📉 📝 🗂️ 🗃️ 📎 📌 📍 📏 📐 📚 📖 📰 📅 📆 🗒️ 🖊️ 📎 🖇️ 📋 📁
