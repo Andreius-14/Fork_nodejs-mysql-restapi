@@ -6,3 +6,13 @@ Las siguientes carpetas no son importantes para enter este backend de FAzt
 
 
 📁 📂 📑 📊 📈 📉 📝 🗂️ 🗃️ 📎 📌 📍 📏 📐 📚 📖 📰 📅 📆 🗒️ 🖊️ 📎 🖇️ 📋 📁
+
+Un servicio util mostrado es el de railway , Te permite subir tu backend o nuestra app pero tambien
+el crear un lugar para guardar tu Database.
+
+Esta app nos permite hacer CRUD Desde thunder.client de vscode. y en su rutas nos permite ver el contenido de 
+la Database en modo json.
+
+al subir al railway podemos haceer peticiones desde thunderclient al link de la app en railway
+
+Este proyecto es del siguiente link - https://www.youtube.com/watch?v=3dSkc-DIM74&t=5143s
